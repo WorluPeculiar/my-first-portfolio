@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     @keyframes fadeIn{
+      from{
+        opacity:0;
+      }
+      to{
+        opacity:1;
+      }
+    }
+    body{
+      background-image:url(moving\ image.jpg);
+      color:white;
+      font-family:sans-serif;
+      animation:fadeIn 1s ease-in;
+    }
+    .hero{
+      background-color:rgb(39, 37, 37);
+      color:cadetblue;
+      display:flex;
+      height:30px;
+      width:1000px;
+      position:fixed;
+      top:0px;
+      left:0px;
+      padding-top:10px;
+      padding-bottom:-5px;
+      text-align:center;
+      gap: 20px;
+      padding-left:20px;
+    }
+    .home{
+     cursor:pointer;
+    }
+    .home:hover{
+       color:whitesmoke;
+       box-shadow:0px 4px 8px rgb(61, 57, 57);
+
+       transition:0.5s;
+       
+    }
+    .about{
+      cursor:pointer;
+    }
+    .about:hover{
+      color:whitesmoke;
+      box-shadow:0px 4px 8px rgb(61, 57, 57);
+       transition:0.5s;
+
+    }
+    .pro{
+      cursor:pointer;
+    }
+    .pro:hover{
+      color:whitesmoke;
+      box-shadow:0px 4px 8px rgb(61, 57, 57);
+       transition:0.5s;
+
+    }
+    .name{
+      margin-left:250px;
+      margin-right:200px;
+    }
+    a{
+      text-decoration:none;
+      color:darkcyan;
+      
+    }
+    a:hover{
+      text-decoration:underline rgb(124, 32, 32);
+    }
+    button{
+      margin-left:200px;
+      cursor:pointer;
+      border:none;
+      height:30px;
+      background-color:rgb(52, 48, 48);
+      border-radius:5px;
+      color:darkcyan;
+      transition:background-color 0.3s;
+    }
+    button:hover{
+      background-color:rgb(16, 33, 34);
+     
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="home">
+      <a href="home.html"> Home</a>
+    </div>
+    <div class="about">
+      <a href="about.html"> About</a>
+    </div>
+    <div class="pro">
+      <a href="work.html"> Project</a> 
+    </div>
+  </div>
+  <div class="me">
+    <div>
+<img style="width:100px;
+ height:120px;
+ margin-top:100px; margin-left:450px;  border-radius:20px;" src="my picture.jpg" alt="">
+    </div>
+    <div class="name">
+      <h3>My name is Peculiar Worlu, an undergraduate Computer Science student of Rivers State University. A Front-end Developer and looking forward to cooperating with you.
+      </h3>
+      <h4>Here are some projects I have completed.</h4>
+      <button> <a style="text-decoration:none;"  href="work.html"> My Projects</a> </button>
+    </div>
+</div>
+</body>
+</html>

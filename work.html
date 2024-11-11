@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @keyframes fadeIn{
+      from{
+        opacity:0;
+      }
+      to{
+        opacity:1;
+      }
+    }
+    body{
+      background-image:url(moving\ image.jpg);
+      color:white;
+      font-family:sans-serif;
+      animation:fadeIn 1s ease-in;
+    }
+    .hero{
+      background-color:rgb(39, 37, 37);
+      color:cadetblue;
+      display:flex;
+      height:30px;
+      width:1000px;
+      position:fixed;
+      top:0px;
+      left:0px;
+      padding-top:10px;
+      padding-bottom:-5px;
+      text-align:center;
+      gap: 20px;
+      padding-left:20px;
+    }
+    .home{
+     cursor:pointer;
+    }
+    .home:hover{
+       color:whitesmoke;
+       box-shadow:0px 4px 8px rgb(61, 57, 57);
+
+       transition:0.5s;
+       
+    }
+    .about{
+      cursor:pointer;
+    }
+    .about:hover{
+      color:whitesmoke;
+      box-shadow:0px 4px 8px rgb(61, 57, 57);
+       transition:0.5s;
+
+    }
+    .pro{
+      cursor:pointer;
+    }
+    .pro:hover{
+      color:whitesmoke;
+      box-shadow:0px 4px 8px rgb(61, 57, 57);
+       transition:0.5s;
+
+    }
+   
+    a{
+      text-decoration:none;
+      color:darkcyan;
+      
+    }
+    a:hover{
+      text-decoration:underline rgb(124, 32, 32);
+    }
+   .first{
+    width:70%;
+    height:50px;
+    background-color:rgb(69, 67, 64);
+    margin-top:20px;
+    margin-left:20px;
+    gap:5px;
+    border-radius:5px;
+    padding-left:20px;
+    padding-top:4px;
+   }
+   button{
+      margin-left:100px;
+      cursor:pointer;
+      border:none;
+      height:30px;
+      background-color:rgb(52, 48, 48);
+      border-radius:5px;
+      color:darkcyan;
+      transition:background-color 0.3s;
+    }
+    button:hover{
+      background-color:rgb(16, 33, 34);
+     
+    }
+   
+    ol{
+        list-style:square;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="home">
+      <a href="home.html"> Home</a>
+    </div>
+    <div class="about">
+      <a href="about.html"> About</a>
+    </div>
+    <div class="pro">
+      <a href="work.html"> Project</a>
+    </div>
+  </div>
+  <div class="me">
+    <img style="width:100px; margin-top:40px;margin-left:50px;" src="my picture.jpg" alt="">
+    <h3 style="margin-top:10px; margin-bottom:5px; margin-left:50px;">For more information</h3>
+</div>
+   <button><a href="https://web.whatsapp.com/">Contact Me</a></button>
+
+   
+    <div class="first">
+        <ol>
+        <li>
+       <a href="https://worlupeculiar.github.io/Car-preview/"> <h2> column car-preview</h2></a>
+    </div>  
+   </li>  
+</ol>
+    <div class="first">
+        <ol>
+            <li>
+                <a href="https://worlupeculiar.github.io/huddle-landing-page/"> <h2>Huddle Landing Page</h2></a> 
+            </li>
+        </ol>    
+    </div>    
+    <div class="first">
+        <ol>
+            <li>
+                <a href="https://worlupeculiar.github.io/nft-preview-card-component-main/"><h2>NFT-preview-card</h2> </a> 
+            </li>
+        </ol>    
+    </div>    
+    <div class="first">
+        <ol>
+            <li>
+                <a href="https://worlupeculiar.github.io/results-summary-component-main/"> <h2>Result-Summary</h2></a>
+            </li>
+        </ol> 
+    </div>       
+</body>
+</html>
