@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    @keyframes fadeIn{
+     @keyframes fadeIn{
       from{
         opacity:0;
       }
@@ -40,8 +40,9 @@
     .home:hover{
        color:whitesmoke;
        box-shadow:0px 4px 8px rgb(61, 57, 57);
-       transition:0.5s;
 
+       transition:0.5s;
+       
     }
     .about{
       cursor:pointer;
@@ -62,58 +63,57 @@
 
     }
     .name{
-      margin-top:200px;
-      font-size:25px;
-      padding-left:40px;
-     
-    }
-    .me{
-      display:flex;
-    }
-    button{
-      cursor:pointer;
-      height:40px;border:none;margin-left:350px;border-radius:17%;background-color:rgb(52, 48, 48); color:white;
-      transition:background-color 0.3s;
-
-    }
-    button:hover{
-     background-color:rgb(16, 33, 34);
+      margin-left:250px;
+      margin-right:200px;
     }
     a{
       text-decoration:none;
       color:darkcyan;
+      
     }
     a:hover{
       text-decoration:underline rgb(124, 32, 32);
     }
-   @media(max-width:)
+    button{
+      margin-left:200px;
+      cursor:pointer;
+      border:none;
+      height:30px;
+      background-color:rgb(52, 48, 48);
+      border-radius:5px;
+      color:darkcyan;
+      transition:background-color 0.3s;
+    }
+    button:hover{
+      background-color:rgb(16, 33, 34);
+     
+    }
   </style>
 </head>
 <body>
   <div class="hero">
     <div class="home">
-      <a href="home.html">Home</a> 
+      <a href="./index7.html"> Home</a>
     </div>
     <div class="about">
-      <a href="about.html"> About</a>
+      <a href="./index8.html"> About</a>
     </div>
     <div class="pro">
-      <a href="work.html"> Project</a>
+      <a href="./index9.html"> Project</a> 
     </div>
   </div>
   <div class="me">
-  <div>
- <img style="width:170px;margin-top:70px ;padding-left:50px;border-radius:40px;" src="./my picture.jpg" alt="">
-  </div>
-  <div class="name">
-    <h3 style="margin-bottom:7px;" >Hi,</h3>
-    <h3top style="margin-top:5px;">I'm Peculiar.<abbr title="Chimyegarum">C</abbr>.Worlu</h3>
-    <h3 style="margin-top:7px;"> A Front-end Developer</h3>
+    <div>
+<img style="width:100px;
+ height:120px;
+ margin-top:100px; margin-left:450px;  border-radius:20px;" src="my picture.jpg" alt="">
     </div>
-  </div>
- <button ><a style=" 
-  text-decoration:none;
-" href="about.html">ABOUT</a></button>
-
+    <div class="name">
+      <h3>My name is Peculiar Worlu, an undergraduate Computer Science student of Rivers State University. A Front-end Developer and looking forward to cooperating with you.
+      </h3>
+      <h4>Here are some projects I have completed.</h4>
+      <button> <a style="text-decoration:none;"  href="./index9.html"> My Projects</a> </button>
+    </div>
+</div>
 </body>
 </html>
